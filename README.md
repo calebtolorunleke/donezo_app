@@ -1,16 +1,77 @@
-# React + Vite
+# React Todo & State Management Practice App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application built to practice core React concepts including state management, event handling, controlled forms, conditional rendering, and dynamic list updates using React Hooks.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Add and manage todos
+- Mark tasks as completed
+- Toggle task status dynamically
+- Counter component with increment/decrement functionality
+- Controlled form inputs
+- React Hooks (`useState`)
+- Component-based architecture
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript (ES6+)
+- JSX
+- CSS
+- Vite / Create React App
 
-## Expanding the ESLint configuration
+## Learning Objectives
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project was created to strengthen understanding of:
+
+- React Components
+- Props
+- State Management
+- Event Handling
+- Conditional Rendering
+- Array Methods (`map`, `filter`)
+- Form Handling
+- Component Reusability
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/project-name.git
+```
+
+Navigate into the project:
+
+```bash
+cd project-name
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Future Improvements
+
+- Edit existing todos
+- Delete todos
+- Local storage persistence
+- Dark mode
+- Search and filter tasks
+- React Router integration
+- Backend API integration
+
+## Author
+
+Caleb Tolorunleke Adebayo
+
+- LinkedIn: https://www.linkedin.com/in/calebtol
+- GitHub: https://github.com/calebtolorunleke
