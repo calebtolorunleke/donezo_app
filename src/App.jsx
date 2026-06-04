@@ -1,10 +1,14 @@
 import React from "react";
-import Todo from "./components/Todo";
+import InlineComponent from "./components/InlineComponent";
+import OutlineComponent from "./components/OutlineComponent";
+// import Todo from "./components/Todo";
 
 const App = () => {
   return (
     <div>
-      <Todo />
+      {/* <Todo /> */}
+      <InlineComponent />
+      <OutlineComponent />
     </div>
   );
 };
