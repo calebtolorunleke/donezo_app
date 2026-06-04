@@ -1,4 +1,4 @@
-# React Todo & State Management Practice App
+# React donezo & State Management Practice App
 
 A React application built to practice core React concepts including state management, event handling, controlled forms, conditional rendering, and dynamic list updates using React Hooks.
 
